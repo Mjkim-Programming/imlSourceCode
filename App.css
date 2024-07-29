@@ -1,0 +1,237 @@
+.App {
+  text-align: center;
+  position:relative;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  display:inline-block;
+  width: 10vmin;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.App-header {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: left;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  background-color:rgba(245,245,245,0.3);
+  border-style:solid;
+  border-bottom-width: 1px;
+  border-width: 0px 0px 1px 0px;
+  border-color:black;
+  position:sticky;
+    top:0;
+  backdrop-filter:blur(10px);
+    box-shadow: 2px 7px 7px 1px rgba(0,0,0,0.3);
+  z-index:1;
+}
+
+.header-button{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.App {
+  text-align: center;
+  position:relative;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+  display:inline-block;
+  width: 10vmin;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.App-header {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: left;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  background-color:rgba(245,245,245,0.3);
+  border-style:solid;
+  border-bottom-width: 1px;
+  border-width: 0px 0px 1px 0px;
+  border-color:black;
+  position:sticky;
+    top:0;
+  backdrop-filter:blur(10px);
+    box-shadow: 2px 7px 7px 1px rgba(0,0,0,0.3);
+  z-index:1;
+}
+
+.header-button{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.log{
+  align-items:right;
+  font-size: 15px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.logsign{
+  margin-left:auto;
+  text-align: center;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.BannerImage{
+  display:inline-block;
+  width:100%;
+}
+
+.Article1{
+  margin: auto;
+  margin-left: auto + 10%;
+  margin-right:5%;
+  display:inline-block;
+  width:18%;
+  height:30%;
+  border-radius:10%;
+  border-color:rgb(141, 141, 141);
+  border: 1px solid rgb(141, 141, 141);
+  backdrop-filter:blur(10px);
+  box-shadow: 2px 7px 7px 1px rgba(0,0,0,0.3);
+  z-index:0;
+}
+.ArticleImage{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:4%;
+  margin-bottom:auto;
+  width:18%;
+  height:15%;
+  border-radius:50%;
+  border: 1px solid rgb(141,141,141);
+  backdrop-filter:blur(10px);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  z-index:0;
+}
+.article2{
+  font-size:2vmin;
+  padding-top:auto;
+  margin-top:0;
+  margin-bottom:auto;
+}
+.customfooter{
+  margin-top:auto;
+  width:100%;
+  height:4%;
+  background-color:white;
+  border-top:1px solid gray;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  align-items:left;
+}
+.footertext{
+  text-align:left;
+  padding-left:3vmin;
+}
+.footertextname{
+  font-size:3.5vmin;
+}
+.footertextowner{
+  font-size:2vmin;
+}
+.AboutImage{
+  width:100%;
+  height:auto;
+}
+.LearnPage{
+  align-items:left;
+}
+.LearnText{
+  font-size:7.3vmin;
+  display:inline-block;
+  padding-right:170vmin;
+}
+.LearnBar{
+  width:197vmin;
+  border: 1px solid black;
+  margin-left:7vmin;
+  border-radius:5vmin;
+  box-shadow: 1vmin 1vmin 2vmin grey;
+  justify-content:center;
+  margin-top:2vmin;
+  margin-bottom:1.5vmin;
+}
+.LearnBarText{
+  display:inline-block;
+  margin-top:4vmin;
+  margin-bottom:3vmin;
+  font-size:4vmin;
+}
+.LearnButtonDiv{
+  display:inline-block;
+  height:auto;
+  width:auto;
+  margin-top:auto;
+  margin-bottom:auto;
+  border: 0.5vmin solid rgb(115, 225, 109);
+  border-radius:3vmin;
+}
+.LearnButton{
+  text-decoration:none;
+  color:rgb(115, 225, 109);
+  padding-bottom:5vmin;
+  font-size:3vmin;
+  padding-left:1vmin;
+  padding-right:1vmin;
+  font-weight:bold;
+}
+.BlankDiv{
+  height:8vmin;
+  width:145vmin;
+  display:inline-block;
+}
+.DivisionLine{
+  width:145vmin;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom:0.3vmin solid rgb(105, 105, 105);
+}
+.asdf{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 100.0000%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+  will-change: transform;
+}
+.iframeTest{
+  position: absolute;
+  width: 35%;
+  height: 35%;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-left:32.5%;
+  margin-right:32.5%;
+  border:2.5vmin groove rgba(0, 0, 0, 0.303);
+}
