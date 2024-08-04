@@ -119,7 +119,26 @@ function Home(){
 // ? Already made function to change Image
 
 function LearnDemorgan(){
+  let [proKey,changeProKey] = useState(0);
+  let [isKeyRight,keyChange] = useState(0);
+  let proKeyHidden = 7;
+  const ProKeyInput = event => {
+    changeProKey(event.target.value);
+  }
+  useEffect(() => {
+    console.log(proKey);
+
+    if(proKey == proKeyHidden){
+      keyChange(1);
+      console.log(isKeyRight);
+    } else{
+      keyChange(0);
+      console.log(isKeyRight);
+    }
+
+  }, [proKey]);
   return(
+
     <div className="App">
       <div className="LearnApp">
         <Header></Header>
@@ -132,9 +151,9 @@ function LearnDemorgan(){
                    allowfullscreen="allowfullscreen"
                    allow="fullscreen">
             </iframe>
+            <input type="number" placeholder="문제 키를 입력하세요" value={proKey} onChange = {ProKeyInput}/>
+            {isKeyRight ? <h1><ProbFrame /></h1> : <h1 className="lastText">문제 키가 잘못되었습니다.</h1>}
           </div>
-
-          
           {/*
           <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -145,6 +164,32 @@ function LearnDemorgan(){
 </div>          */}
         </div>
       </div>
+    </div>
+  );
+}
+
+function ProbFrame(){
+  let [proAns, changeProAns] = useState(0);
+  let [proAnsCor, changeProSta] = useState(0);
+  let proAnsHidden = 5;
+  const ProAnsInput = event  => {
+    changeProAns(event.target.value);
+  }
+  useEffect(() => {
+    console.log(proAns);
+    if(proAns == proAnsHidden){
+      changeProSta(1);
+    } else {
+      changeProSta(0);
+    }
+  },[proAns]);
+  return(
+    <div className="App">
+        <iframe loading="lazy" className="iframeTest"
+          src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGM23Rjnpc&#x2F;NVISFpvFhxPWzxg1c0IOVA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+        <input type="number" placeholder="문제의 답을 입력하세요" value={proAns} onChange = {ProAnsInput} />
+        {proAnsCor ? <Link to="/learn" className="lastText">정답입니다! 메인 화면으로 돌아가려면 클릭하세요.</Link> : <h1 className="lastText">답이 잘못되었습니다.</h1>}
     </div>
   );
 }
@@ -176,7 +221,6 @@ const LearnBar = (props) => {
     <div className="App">
       <div className="LearnBar">
         <h1 className="LearnBarText">{props.LearnName}</h1>
-        <div className="BlankDiv"></div>
         <div className="LearnButtonDiv">
           <Link to={props.LinkTo} className="LearnButton">학습하기</Link>
         </div>
@@ -218,6 +262,5 @@ function App() {
     </HashRouter>
   );
 }
-
 
 export default App;

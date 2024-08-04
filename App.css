@@ -160,12 +160,12 @@
   align-items:left;
 }
 .LearnText{
-  font-size:7.3vmin;
-  display:inline-block;
-  padding-right:170vmin;
+  font-size:3vw;
+  display:block;
+  padding-right:80vw;
 }
 .LearnBar{
-  width:197vmin;
+  width:90vw;
   border: 1px solid black;
   margin-left:7vmin;
   border-radius:5vmin;
@@ -176,13 +176,13 @@
 }
 .LearnBarText{
   display:inline-block;
-  margin-top:4vmin;
-  margin-bottom:3vmin;
-  font-size:4vmin;
+  margin-top:4vh;
+  font-size:2.5vw;
+  padding-right:50vw;
 }
 .LearnButtonDiv{
   display:inline-block;
-  height:auto;
+  height:7;
   width:auto;
   margin-top:auto;
   margin-bottom:auto;
@@ -210,28 +210,21 @@
   border-bottom:0.3vmin solid rgb(105, 105, 105);
 }
 .asdf{
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 100.0000%;
-  padding-bottom: 0;
-  box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
-  margin-top: 1.6em;
-  margin-bottom: 0.9em;
-  overflow: hidden;
-  border-radius: 8px;
-  will-change: transform;
+
 }
 .iframeTest{
-  position: absolute;
-  width: 35%;
-  height: 35%;
-  top: 0;
-  left: 0;
+  margin-top:1.6em;
+  width: 35vw;
+  height: 35vw;
   border: none;
   padding: 0;
-  margin: 0;
   margin-left:32.5%;
   margin-right:32.5%;
   border:2.5vmin groove rgba(0, 0, 0, 0.303);
+}
+.lastText{
+  text-decoration:none;
+  color:black;
+  display:block;
+  font-size:2vw;
 }
