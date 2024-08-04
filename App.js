@@ -121,7 +121,7 @@ function Home(){
 function LearnDemorgan(){
   let [proKey,changeProKey] = useState(0);
   let [isKeyRight,keyChange] = useState(0);
-  let proKeyHidden = 7;
+  let proKeyHidden = 1329;
   const ProKeyInput = event => {
     changeProKey(event.target.value);
   }
@@ -197,6 +197,7 @@ function ProbFrame(){
 function Pitagoras(){
   return(
     <div className="App">
+      <Header />
       <h1>개발중인 페이지입니다.</h1>
     </div>
   )
