@@ -206,11 +206,11 @@ function Pitagoras(){
 function LearnStart(){
   return(
     <div className="App">
-      <Header></Header>
+      <Header></Header> 
       <div className="LearnPage">
         <h1 className = "LearnText">학습하기</h1>
         <LearnBar LearnName={"드모르간의 법칙"} LinkTo="/demorgan"></LearnBar>
-        <div className="DivisionLine"/>
+        {/*<div className="DivisionLine"/>*/}
         <LearnBar LearnName={"피타고라스 정리"} LinkTo="/pitagoras"></LearnBar>
       </div>
     </div>
