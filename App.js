@@ -62,7 +62,7 @@ function Wheretofind(){
     <div className="article2">
       <br></br>
       <h1>IML 프로젝트는 어디에서 볼 수 있나요?</h1>
-      <p>현재 Mjkim-programming.github.io에서 확인할 수 있습니다.</p>
+      <p>현재 Mjkim-programming.github.io/iml 에서 확인할 수 있습니다.</p>
       <br></br>
     </div>
   );
@@ -154,14 +154,6 @@ function LearnDemorgan(){
             <input type="number" placeholder="문제 키를 입력하세요" value={proKey} onChange = {ProKeyInput}/>
             {isKeyRight ? <h1><ProbFrame /></h1> : <h1 className="lastText">문제 키가 잘못되었습니다.</h1>}
           </div>
-          {/*
-          <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGMPUb35Ow&#x2F;3BzNvVU5Vp57PCzXqCrufA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>          */}
         </div>
       </div>
     </div>
